@@ -1,0 +1,8 @@
+.countrySpan {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: Oswald, sans-serif !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.heading {
+  font-family: Monoton !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 0.5rem;
+  padding: 1em;
+  justify-content: center;
+}

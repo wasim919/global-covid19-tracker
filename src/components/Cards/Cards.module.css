@@ -1,0 +1,38 @@
+.cardTitle {
+  font-family: Oswald, sans-serif !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+}
+.spinContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.cardContent {
+  font-family: Oswald, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+@media only screen and (max-width: 203px) {
+  .cardTitle {
+    font-size: 19px !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 645px) {
+  .cardTitle {
+    font-size: 19px !important;
+  }
+}
+.cardRecovered {
+  border-bottom: 4px solid lightgreen;
+}
+
+.cardConfirmed {
+  border-bottom: 4px solid lightskyblue;
+}
+
+.cardDead {
+  border-bottom: 4px solid lightcoral;
+}
